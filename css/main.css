@@ -1,0 +1,271 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #d6d6d6;
+}
+
+
+
+
+.karl_profile {
+  background-image: url('/images/temp1.JPG');
+  background-position: center;
+  background-size: cover;
+}
+
+.erling_profile {
+  background-image: url('/images/temp2.JPG');
+  background-position: center;
+  background-size: cover;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+ 
+
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 90vh;
+}
+.carousel-item > img {
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+.showcase {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+  }
+
+  
+.about {
+  margin: 1em;
+}
+
+
+.gallery {
+  /* height: 80vh; */
+}
+
+.logo {
+    width: 6rem;
+}
+
+.card {
+    width: 300px;
+}
+
+.center {
+    display: flex;
+    margin: auto;
+}
+
+
+
+/* footer styling */
+
+footer {
+    height: auto;
+    text-align: center;
+    /* background-color: #161616; */
+    color: #ccc;
+  }
+  
+  .social-menu {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+  }
+  
+  .social-menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 2em;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  
+  .social-menu ul li {
+    margin: 2em 1em;
+  }
+  
+  
+  .social-menu ul li .fab, .social-menu ul li .fas {
+    font-size: 30px;
+    line-height: 60px;
+    color: #000;
+  }
+  
+  .social-menu ul li:hover .fab, .social-menu ul li:hover .fas {
+    color: #fff;
+  }
+  
+  .social-menu ul li a {
+    /* position: relative; */
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s;
+    box-shadow: 0 6px 4px rgba(0,0,0,.5);
+  }
+  
+  .social-menu ul li a:hover {
+    transform: translate(0, -10px);
+    box-shadow: 0 16px 4px 2px rgba(0,0,0,.5);
+  }
+  
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+  }
+  
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+  }
+  .social-menu ul li:nth-child(3) a:hover {
+    background-color: #55acee;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  .form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.logo {
+  width: 10rem;
+}
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
