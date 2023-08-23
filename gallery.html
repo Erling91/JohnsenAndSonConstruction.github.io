@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Johnsen & Son Construction</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b776f087e3.js" crossorigin="anonymous"></script>
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+</head>
+<body>
+    <header class="bg-dark">
+        <!-- Your header content here -->
+        
+       <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img class="logo" src="images/logoA.png" alt="Johnsen & Son">
+         
+          </a>
+
+          <ul class="nav">
+           <li class="nav-item">
+             <a class="text-light nav-link active" aria-current="page" href="index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="text-light nav-link " href="index.html#about">About</a>
+           </li>
+           <li class=" nav-item">
+             <a class="text-light nav-link" href="index.html#footer">Contact</a>
+           </li>
+          </ul>
+        </header>
+      </div>
+
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="container">
+                <h2>Project Gallery</h2>
+                <div class="gallery-container">
+                    <!-- Gallery images will be added here dynamically -->
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light text-center">
+        <!-- Your footer content here -->
+          
+      
+    <div class="social-menu">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2023 Johnsen & Son Construction &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  
+    </footer>
+
+    
+    <!-- Modal Overlay -->
+<div id="gallery-modal" class="modal-overlay">
+    <!-- Modal Container -->
+    <div class="modal-container">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <img id="modal-image" src="" alt="Modal Image">
+    </div>
+  </div>
+  
+
+
+    <script src="js/gallery.js"></script>
+</body>
+</html>

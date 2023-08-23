@@ -36,22 +36,6 @@
 
 
 
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          user-select: none;
-        }
-  
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-      </style>
-
 
 
       <!-- Custom styles for this template -->
@@ -59,7 +43,7 @@
 </head>
 
 
-<body class="bg-secondary">
+<body class="bg-dark">
 
 
 
@@ -79,7 +63,10 @@
               <a class="text-light nav-link " href="#about">About</a>
             </li>
             <li class=" nav-item">
-              <a class="text-light nav-link" href="#footer">Follow</a>
+              <a class="text-light nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class=" nav-item">
+              <a class="text-light nav-link" href="#footer">Contact</a>
             </li>
            </ul>
          </header>
@@ -94,7 +81,7 @@
 
 
 
-      <main class="bg-primary-subtle">
+      <main class="bg-light">
         
         <div id="myCarousel" class="carousel slide content" data-bs-ride="carousel">
           
@@ -111,7 +98,7 @@
                 <div class="carousel-caption text-start">
                   <h1>Example headline.</h1>
                   <p>Some representative placeholder content for the first slide of the carousel.</p>
-                  <p><a class="btn btn-lg btn-primary" href="form.html">Contact us</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="#contact">Contact us</a></p>
                 </div>
               </div>
             </div>
@@ -133,7 +120,7 @@
                 <div class="carousel-caption text-end">
                   <h1>One more for good measure.</h1>
                   <p>Some representative placeholder content for the third slide of this carousel.</p>
-                  <p><a class="btn btn-lg btn-primary" href="album.html">Browse gallery</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="gallery.html">Browse gallery</a></p>
                 </div>
               </div>
             </div>
@@ -224,6 +211,40 @@
         </div><!-- /.container -->
       
       </main>
+
+
+<!-- Contact Form Section -->
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 mx-auto">
+              <h2 class="text-center">Contact Us</h2>
+              <form id="contact-form" class="mt-4">
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Your Name</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Your Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone" class="form-label">Your Phone Number</label>
+                      <input type="tel" class="form-control" id="phone" name="phone" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
         <!-- FOOTER -->
         
 <footer id="footer" class="footer container">
